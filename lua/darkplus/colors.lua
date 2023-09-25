@@ -1,7 +1,7 @@
 return {
   fg = '#D4D4D4',
   bg = '#000000',
-  dark = '#252525',
+  dark = '#111111',
   accent = '#BBBBBB',
   popup_back = '#2D2D30',
   search_orange = '#613214',
