@@ -11,7 +11,7 @@ M.base = {
 
   Boolean = { fg = c.orange },
   Character = { fg = c.green },
-  ColorColumn = { bg = c.dark },
+  ColorColumn = { bg = c.bg },
   Comment = { fg = c.gray, style = 'italic' },
   Conceal = { fg = c.accent, bg = config.transparent_background and 'NONE' or c.bg },
   Conditional = { fg = c.purple },
@@ -39,7 +39,7 @@ M.base = {
   Exception = { fg = c.purple },
   Float = { fg = c.orange },
   FloatBorder = { fg = c.gray, bg = c.dark },
-  FoldColumn = { fg = c.accent, bg = c.dark },
+  FoldColumn = { fg = c.accent, bg = c.bg },
   Folded = { fg = c.accent, bg = c.dark },
   Function = { fg = c.blue },
   Identifier = { fg = c.fg },
