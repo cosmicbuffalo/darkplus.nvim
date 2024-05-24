@@ -7,7 +7,8 @@ local function highlight(group, properties)
   local cmd = table.concat({ 'highlight', group, bg, fg, style }, ' ')
   vim.api.nvim_command(cmd)
 end
-
+-- TODO: copy this pattern for loading plugin highlight groups only if they're loaded
+-- https://github.com/loctvl842/monokai-pro.nvim/blob/master/lua/monokai-pro/theme/init.lua
 function M.load(theme)
   if vim.g.colors_name then
     vim.cmd 'hi clear'
